@@ -2,11 +2,6 @@
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-body {
-    background-color: #161925;
-    color: #CBF7ED;
-}
-
 header {
     background: radial-gradient(circle, rgba(142,168,195,1) 0%, rgba(64,110,142,1) 50%, rgba(35,57,91,1) 100%);
     padding: 30px;
@@ -19,8 +14,27 @@ header img {
     border: 5px solid #CBF7ED;
 }
 
+body {
+    background-color: #161925;
+    color: #CBF7ED;
+}
+
+main {
+    padding: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #8EA8C3;
+}
+
 footer {
     background: radial-gradient(circle, rgba(142,168,195,1) 0%, rgba(64,110,142,1) 50%, rgba(35,57,91,1) 100%);
     padding: 30px;
     color: #161925;
+}
+
+footer a {
+    color: #161925;
+    font-size: large;
 }
